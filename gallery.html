@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/gallryStyle.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="poulate()">
+
+  <div class ="profile">
+    <div class ="profileName">Welcome to the gallery</div>
+    <i class="fa fa-gear"></i>
+  </div>
+
+<!-- The four columns -->
+<div class="row">
+
+	<div class="column first"></div>
+	<div class="column second"></div>
+	<div class="column third"></div>
+	<div class="column forth"></div>
+ 
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <img class ="close" src="res/Close.png">
+    <img class = "arrow left" src="res/Leftarrow.png">
+    <img class = "arrow right" src="res/Rightarrow.png">
+  
+  <!-- Modal content -->
+  <div class="modal-content">
+    <img id="expandedImg">
+  </div>
+
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%; height: 100vh; margin: auto;">
+  <div id="imgtext"></div>
+</div>
+
+<script type="text/javascript" src="js/galleryScript.js"></script>
+</body>
+</html>
