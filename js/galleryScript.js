@@ -25,7 +25,8 @@ function poulate(){
   "https://i.imgur.com/di75wgZ.jpg",
   "https://i.imgur.com/Jj9FcdY.jpg",
   "https://i.imgur.com/jWHrQAj.jpg",
-  "https://i.imgur.com/kaBluMS.jpg"];
+  "https://i.imgur.com/kaBluMS.jpg",
+  "https://i.pinimg.com/originals/55/8b/9e/558b9e705c69c43677ff9b4e391f35bb.png"];
 
   var first = document.getElementsByClassName("first")[0];
   var second = document.getElementsByClassName("second")[0];
