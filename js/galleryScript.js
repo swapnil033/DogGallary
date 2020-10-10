@@ -46,7 +46,6 @@ function poulate(){
               "https://i.imgur.com/yJXWKrY.jpg",
               "https://i.imgur.com/v0jyj0b.jpg",
               "https://i.imgur.com/PoI5H0U.jpg",
-              "https://i.imgur.com/Lq12Q9I.jpg",
               "https://i.pinimg.com/236x/23/84/5e/23845e08467917656a01967eb2219be6.jpg",
               "https://i.imgur.com/OKdpywC.jpg",
               "https://i.imgur.com/71dFAZN.jpg",
